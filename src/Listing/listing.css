@@ -1,0 +1,102 @@
+.ListingPage
+{
+    width:100%;
+    height: auto;
+}
+
+.content{
+ display:flex;
+ flex-direction: column; 
+ height:auto;
+ width:100%;
+ background-color: rgb(255, 255, 255);
+ border-radius: 20px;
+ margin-bottom: 30px;
+}
+.row {
+    display: flex;
+  }
+.content li{
+    margin-right: 0;
+}
+.content h1{
+    padding:0px;
+    margin: 0;
+    margin-left: 45px;
+    
+}
+.sidebar {
+    width: 18%; /* Adjust the width as needed */
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+   
+  }
+  
+  .rightContent {
+    margin: 15px;
+    margin-top: 5px;
+    width: 80%; /* Adjust the width as needed */
+    padding: 20px;
+    padding-top: 0px;
+  }
+
+  .Sort{
+    display: flex;
+    width:100%;
+    height:auto;
+    font-weight: bold;
+    
+  }
+  .sortby{
+    width: 80px;
+  }
+
+  .Sort .dropdown .dropbtn{
+    border: 10px;
+    border-color: black;
+    margin-top: 20px;
+    color: black;
+  }
+
+  .arrow {
+    margin-left: 30px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .results-shown{
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  .row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .next-prev{
+    display: flex;
+    justify-content: center;
+  }
+  .next-prev .button-nav ,.button-next{
+    color:rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 75px;
+    padding: 5px;
+  }
+  .button-last{
+    color:rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 75px;
+
+  }

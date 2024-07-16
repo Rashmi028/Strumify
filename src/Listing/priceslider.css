@@ -1,0 +1,11 @@
+.price-slider {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .price-output {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

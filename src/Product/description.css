@@ -1,0 +1,146 @@
+.description {
+    margin: 70px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.Product-name {
+    margin-bottom: 15px;
+}
+
+.Ratings {
+    display: flex;
+}
+
+.Ratings i {
+    color: goldenrod;
+    font-size: 18px;
+}
+
+.rating-des {
+    margin-left: 10px;
+}
+
+.Price {
+    display: flex;
+}
+
+.Price h2 {
+    margin-right: 25px;
+    font-size: 30px;
+}
+
+.Price h4 {
+    font-size: smaller;
+    margin-top: 35px;
+    color: grey;
+    margin-right: 20px;
+}
+
+.Price h3 {
+    font-size: smaller;
+    margin-top: 35px;
+    color: rgb(235, 20, 20);
+}
+
+.color-cat .colors {
+    margin: 0px;
+}
+
+.color-cat {
+    height: 90px;
+}
+
+.colors li {
+    color: transparent;
+    border-radius: 50%;
+    width: 22px;
+    box-shadow: 5px 10px;
+}
+
+.shopping-cart {
+    display: flex;
+}
+
+.shopping-cart h3 {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+    margin: 50px;
+}
+
+.shopping-cart h3 i {
+    color: white;
+}
+
+.shipping-info {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.shipping-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.shipping-row i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.pincode {
+    margin-left: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.pincode input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.pincode button {
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    background: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.deals, .returns {
+    display: flex;
+    padding: 10px 0;
+}
+
+.deal-item, .return-item {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.deal-item i, .return-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.deal-item {
+    color: #007bff;
+}
+
+.return-item {
+    color: #17a2b8;
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}

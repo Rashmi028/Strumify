@@ -1,0 +1,33 @@
+.productdetails{
+    height:auto;
+    margin:5%;
+   
+}
+
+.details-title{
+    display: flex;
+    font-weight: bolder;
+}
+
+.details-title .details-head {
+    margin-right: 5%;
+}
+
+.details-head button{
+    cursor: pointer;
+    Color:rgb(66, 66, 66);
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detailed-des, .detailed-det, .Cutomer-Reviews {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+}

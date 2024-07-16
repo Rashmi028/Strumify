@@ -1,0 +1,34 @@
+.sidebar {
+    margin: 45px;
+    margin-top: 25px;
+    padding: 30px;
+    height:auto;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    
+  }
+  
+  .Categories h2 {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+ .category-menu input{
+  margin-right: 10px;
+ }
+  
+.more{
+  padding: 20px;
+  margin-left: 7px;
+  background-color: #f4f4f4;
+  color:red;
+  font-weight: 800;
+} 
+.Slider{
+  margin-bottom: 20px;
+}
+.color-circle{
+  width:5px;
+  height: 5px;
+  border-radius: 50px;
+  color:blue
+}

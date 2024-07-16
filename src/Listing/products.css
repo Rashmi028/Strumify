@@ -1,0 +1,101 @@
+/* products.css */
+
+.col-sm-3 {
+    width: 20%;
+    padding: 15px;
+
+  }
+  
+  .thumb-wrapper {
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .wish-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #bdb5b4;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .img-box {
+    height: 250px;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .img-responsive {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .thumb-content h4 {
+    font-size: 18px;
+    margin:0;
+    padding: 0px;
+  }
+  
+  .star-rating {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star-rating .list-inline {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 6px;
+    list-style: none;
+  }
+  
+  .star-rating .list-inline-item {
+    color: goldenrod;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .item-price {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .item-price strike {
+    color: #999;
+    margin-right: 5px;
+  }
+  
+.thumb-content .btn {
+    text-decoration: none;
+	color: #fc2f2f;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #fc2f2f;;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.thumb-content .btn:hover, .thumb-content .btn:focus {
+	color: white;
+	background: #ffb4b4;
+	box-shadow: none;
+}
+ .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+   
+}

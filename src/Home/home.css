@@ -1,0 +1,207 @@
+.navFacility {
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.navFacility ul {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navFacility li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add some space between the items */
+}
+
+.navFacility img {
+  height: 50px;
+  margin-right: 10px; /* Add some space between the image and the text */
+}
+
+
+.promotion-banner {
+
+  height: 450px;
+background-image: url('../public/snapedit_1720117570843.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  color: rgb(255, 255, 255); /* White text color */
+  padding: 20px 0; /* Vertical padding */
+  font-family: sans-serif;
+  display: flex; /* Use Flexbox */
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+}
+
+
+.promotion-banner h2 {
+  font-size: 80px; /* Larger font size for the heading */
+  margin: 14px 0; /* Remove default margin */
+
+}
+
+.promotion-banner p {
+  font-size: 30px; /* Medium font size for the paragraph */
+  margin: 30px 0; /* Add some margin around the paragraph */
+  font-weight: bold;
+}
+.promotion-banner2 {
+
+  height: 450px;
+background-image: url('../public/562-MainPiano-Bar-.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+  color: rgb(255, 255, 255); /* White text color */
+  padding: 20px 0; /* Vertical padding */
+  font-family: sans-serif;
+  display: flex; /* Use Flexbox */
+  flex-direction: column; /* Arrange children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  text-align: center;
+}
+
+
+.promotion-banner2 h2 {
+  font-size: 80px; /* Larger font size for the heading */
+  margin: 14px 0; /* Remove default margin */
+
+}
+
+.promotion-banner2 p {
+  font-size: 30px; /* Medium font size for the paragraph */
+  margin: 30px 0; /* Add some margin around the paragraph */
+  font-weight: bold;
+}
+
+.shop-now-btn {
+  background-color: #fff; /* White background color for the button */
+  color: #110200; /* Red text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 20px; /* Font size for the button text */
+  font-weight: bold;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover state */
+}
+.shop-now-btn:hover {
+  background-color: #124670; /* Red background on hover */
+  color: #fff; /* White text on hover */
+}
+
+
+
+.Top-Cat{
+  display:flex;
+  justify-content: center;
+}
+/* src/components/PromotionalBanners.css */
+.promotional-banners {
+  display: flex;
+  justify-content: center;
+  gap: -100px;
+  margin: 40px 0;
+  margin-left: 70px;
+  margin-right: 65px;
+  
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 48%;
+  position: relative;
+  background-color: white;
+}
+
+.banner img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 80%;
+  border-radius: 1%;
+  opacity: 1.7;
+}
+
+.banner-text {
+  position: absolute;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px;
+
+}
+
+.banner-text h1 {
+  font-size: 33px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 15px 0;
+}
+
+.banner-text h2 {
+  font-size: 30px;
+  margin: 10px 0;
+  font-family:'Times New Roman', Times, serif;
+}
+.banner-text h3 {
+  margin: 10px 0;
+}
+
+
+.banner-text button {
+  background-color: transparent;
+  color:white;
+  border-color: white;;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 570;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner-text button:hover {
+  background-color: #7e7575;
+}
+
+/* Brand-logo Slider */
+.brand-logo-slider{
+  display: flex;
+  height:180px;
+  width: 100%;
+  background-color: white;
+  
+}
+
+.brand-logo img{
+  height: 80px;
+  margin: 30px;
+  width:100px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shopnav ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navFacility ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

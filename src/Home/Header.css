@@ -1,0 +1,323 @@
+/* src/components/Header.css */
+
+.Header {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.applogo img {
+  margin-left: 80px;
+  height: 100px;
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+li a {
+  color: black;
+  text-decoration: none;
+  font-weight:bold;
+  
+}
+
+.dropbutn {
+  border: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold; /* Increase font size */
+  display: flex;
+  align-items: center;
+}
+
+.dropbtn{
+  border: none;
+  background: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold; /* Increase font size */
+  display: flex;
+  align-items: center;
+
+}
+
+.bi {
+  font-size: 24px; /* Increase icon size */
+  margin-right: 8px; /* Add some spacing between icon and text */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  animation: dropdown 0.5s;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ .dropdown:hover .dropbutn {
+  color: orange;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+li {
+  display: block;
+  padding: 8px;
+  float: left;
+  margin-right: 20px;
+}
+
+/* styles.css */
+/* dropdown 2 */
+
+.shopnav ul {
+  display: flex;
+  padding-left: 170px;
+  list-style-type: none;
+  background-color: rgb(221, 61, 61);
+  color: white;
+} 
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2{
+  display: none;
+  box-sizing: border-box;
+  position:absolute;
+  color: black;
+  background-color: #ffffff;
+  min-width: 1000px;
+  height: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.column {
+  float: left;
+  width: 17%;
+  padding: 10px;
+}
+.column h3{
+  color:rgb(221, 61, 61);
+}
+.dropdown-content2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dropdown-content2 a{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 520;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ffd8d8;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn {
+  color: orange;
+}
+
+.dropdown-content2 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* dropdown 3 */
+.dropdown-content3{
+  display: none;
+  box-sizing: border-box;
+  position:absolute;
+  color: black;
+  background-color: #ffffff;
+  min-width: 800px;
+  height: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.column2 {
+  float: left;
+  width: 22%;
+  padding: 10px;
+}
+.column2 h3 a{
+  color:rgb(221, 61, 61);
+}
+.dropdown-content3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.dropdown-content3 a{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 520;
+}
+
+.dropdown-content3 a:hover {
+  background-color: #ffd8d8;
+}
+
+.dropdown2:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown3:hover .dropbtn {
+  color: orange;
+}
+
+.dropdown-content3 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+
+.nav-bar {
+  background-color: white;
+ 
+  border-bottom: 0px solid #ccc;
+}
+
+.nav-bar ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* src/components/Header.css */
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 70px; /* Adjust margin as needed */
+}
+
+.searchbar input[type="text"] {
+  width: 400px; /* Adjust width as needed */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffeeee;
+  border: 1px solid #d37272; /* Light grey border */
+  border-radius: 4px 0 0 4px; /* Rounded corners for left side */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow for a subtle 3D effect */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+}
+
+.searchbar input[type="text"]:focus {
+  border-color: #ecacac; /* Darker grey border on focus */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); /* Slightly darker inner shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+.searchbar button {
+  background-color: #f17070; /* Button background color */
+  border: 3px solid #da6a6a; /* Match border with input */
+  border-radius: 0 4px 4px 0; /* Rounded corners for right side */
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Smooth transition for hover state */
+}
+
+.searchbar button:hover {
+  background-color: #da6a6a; /* Darker background on hover */
+}
+
+.searchbar button i {
+  color: #fff; /* Icon color */
+}
+
+.applogo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bi-person-fill, .bi-cart3, .bi-heart-fill, .bi-shop-window {
+  font-size: 24px; /* Increase icon size */
+  color: black;
+  margin-right: 8px; /* Add spacing between icon and text */
+}
+
+.shopnav ul {
+  display: flex;
+  padding-left: 170px;
+  list-style-type: none;
+  background-color: rgb(221, 61, 61);
+  color: white;
+}
+
+.navFacility ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+.nav-bar ul li a:hover {
+  color: #fff;
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+.more{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .shopnav ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navFacility ul {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
