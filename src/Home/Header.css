@@ -295,8 +295,7 @@ li {
   list-style-type: none;
 }
 .nav-bar ul li a:hover {
-  color: #fff;
-  background-color: #333;
+  color: rgb(241, 48, 48);
   transition: background-color 0.3s;
 }
 .more{
