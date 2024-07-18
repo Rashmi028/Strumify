@@ -53,6 +53,23 @@ li a {
 
 }
 
+.dropbtn:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.dropbtn:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
 .bi {
   font-size: 24px; /* Increase icon size */
   margin-right: 8px; /* Add some spacing between icon and text */
@@ -76,6 +93,7 @@ li a {
   right: 4px;
   left: auto;
   text-align: left;
+  margin-top: 15px;
 }
 
 .dropdown-content a span{
@@ -141,8 +159,9 @@ li {
   background-color: #ffffff;
   min-width: 1000px;
   height: 500px;
+  margin-top: 15px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 5;
 }
 .column {
   float: left;
@@ -170,9 +189,6 @@ li {
   display: block;
 }
 
-.dropdown2:hover .dropbtn {
-  color: orange;
-}
 
 .dropdown-content2 a {
   color: black;
@@ -188,6 +204,7 @@ li {
   color: black;
   background-color: #ffffff;
   min-width: 800px;
+  margin-top: 15px;
   height: 250px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -218,9 +235,6 @@ li {
   display: block;
 }
 
-.dropdown3:hover .dropbtn {
-  color: orange;
-}
 
 .dropdown-content3 a {
   color: black;
