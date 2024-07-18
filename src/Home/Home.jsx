@@ -44,7 +44,7 @@ export default function Home() {
         <div className="promotion-banner">
         <h2>Big Sale!</h2>
         <p>Up to 50% off on selected items. Limited time offer!</p>
-        <button className="shop-now-btn" role="button"><Link to={'/listing'}  style={{ textDecoration: 'none', color:'black'}}>Shop Now</Link></button>
+        <button className="shop-now-btn" role=""><Link to={'/listing'}  style={{ textDecoration: 'none', color:'black'}}>Shop Now</Link></button>
       </div>
      
       </Slide>
