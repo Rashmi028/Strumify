@@ -48,18 +48,18 @@ const ShopByCategory = () => {
   return (
     <div className="shop-by-category">
       <h2>Top Categories</h2>
-      <Link to={'/listing'}  style={{ textDecoration: 'none', color:'black'}}>
+      <Link to={'/listing'}  style={{ textDecoration: 'none'}}>
       <div className="category-grid">
-      
-        {categories.map((category) => (
-          
-          <div key={category.name} className="category-item">
-            <img src={category.image} alt={category.name} />
-            <p><a href="#">{category.name}</a></p>
-          </div>
-        ))}
-       
-      </div>
+  {categories.map((category) => (
+    <div
+      key={category.name}
+      className="category-item"
+      style={{ backgroundImage: `url(${category.image})` }}
+    >
+      <p><a href="#">{category.name}</a></p>
+    </div>
+  ))}
+</div>
       </Link>
       <div className='All-category'>
         <button><a href="#"><h4>VIEW ALL CATEGORIES</h4></a></button>
