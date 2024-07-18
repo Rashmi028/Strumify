@@ -62,7 +62,7 @@ const ShopByCategory = () => {
       </div>
       </Link>
       <div className='All-category'>
-        <a href="#"><h4>VIEW ALL CATEGORIES</h4></a>
+        <button><a href="#"><h4>VIEW ALL CATEGORIES</h4></a></button>
       </div>
     </div>
   );

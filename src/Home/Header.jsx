@@ -23,11 +23,11 @@ export default function Header() {
           <li className="dropdown">
             <button className="dropbutn"><i className="bi bi-person-fill"></i>Login</button>
             <div className="dropdown-content">
-              <a href="#">New Customer? <span >SignUp</span></a>
-              <a href="#">My Profile</a>
-              <a href="#">My Orders</a>
-              <a href="#">Rewards</a>
-              <a href="#">Gift Cards</a>
+              <a href="#">New Customer? <span className="Signup" >SignUp</span></a>
+              <a href="#"><i class="bi bi-person-circle"></i>My Profile</a>
+              <a href="#"><i class="bi bi-box-seam"></i>My Orders</a>
+              <a href="#"><i class="bi bi-gift"></i>Rewards</a>
+              <a href="#"><i class="bi bi-wallet2"></i>Gift Cards</a>
             </div>
           </li>
           <li>
@@ -42,10 +42,10 @@ export default function Header() {
           <li className="dropdown">
           <button className="dropbutn"><i className="bi bi-three-dots-vertical"></i></button>
             <div className="dropdown-content">
-              <a href="#">Notifications</a>
-              <a href="#">24x7 Customer Care</a>
-              <a href="#">Terms & Conditions</a>
-              <a href="#">Strumify Information</a>
+              <a href="#"><i class="bi bi-bell"></i>Notifications</a>
+              <a href="#"><i class="bi bi-headset"></i>24x7 Customer Care</a>
+              <a href="#"><i class="bi bi-file-earmark-font"></i>Terms & Conditions</a>
+              <a href="#"><i class="bi bi-info-circle"></i>Strumify Information</a>
             </div>
           </li>
         </ul>
