@@ -3,8 +3,10 @@
     margin-top: 25px;
     padding: 30px;
     height:auto;
-    background-color: #f4f4f4;
-    border-right: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: white;
+    border-right: 2px solid #ddd;
+    font-family: arial;
     
   }
   
@@ -21,7 +23,7 @@
   margin-left: 7px;
   background-color: #f4f4f4;
   color:red;
-  font-weight: 800;
+  font-weight: 700;
 } 
 .Slider{
   margin-bottom: 20px;

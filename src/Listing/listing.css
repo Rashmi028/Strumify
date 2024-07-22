@@ -4,6 +4,9 @@
     height: auto;
 }
 
+.list-item ,h1{
+  font-family: Helvetica, Arial, sans-serif;
+}
 .content{
  display:flex;
  flex-direction: column; 
