@@ -68,7 +68,6 @@ const Sidebar = () => {
               }}
             />
           </div>
-     
         </div>
         <div className='Color'>
           <h2>Color</h2>
