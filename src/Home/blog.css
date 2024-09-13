@@ -13,6 +13,13 @@
     
    
 }
+
+.Blog-body:hover {
+    transform: scale(1.05); /* Slightly enlarge the category item */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    cursor: pointer; /* Change cursor to pointer */
+    
+  }
 .Blog-body img{
     border-radius: 1px;
     width: 100%;

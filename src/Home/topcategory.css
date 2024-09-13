@@ -11,6 +11,7 @@
   .shop-by-category h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+    font-family: Helvetica, Arial, sans-serif;
   }
   
   .category-grid {
@@ -43,7 +44,12 @@
     font-weight: bold;
     color: white;
   }
-
+  .category-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the category item */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    cursor: pointer; /* Change cursor to pointer */
+    
+  }
 
 /* CSS */
  .All-category button {

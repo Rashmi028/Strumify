@@ -1,20 +1,24 @@
 .Model-structure {
-    background-color: rgb(233, 255, 255);
+    background-color: rgb(255, 255, 255);
     margin-left: 5%;
     margin-bottom: 40px;
     width: 45%;
     height: auto;
-    border-color: black;
+    border-color: rgb(255, 234, 234);
+    border-radius: 20px;
+    border-style:double;
     display: flex;
     align-items: center;
     color: black;
     text-shadow: 10px;
     border-width: 10px;
 }
-
+.Scroll{
+    margin-left: 20px;
+}
 .row3 {
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     height: 400px;
     overflow-y: scroll;
     display: flex;
@@ -41,20 +45,23 @@
 }
 
 .bigpic img {
-    height: 500px;
-    width: 83%;
+    height: 550px;
+    width: 95%;
+    border-radius: 5px;
+    cursor: zoom-in;
 }
 .scroll-img{
     text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .scroll-button {
-    background-color:rgb(233, 255, 255);
+    background-color:rgb(255, 255, 255);
     color: #000000;
     font-size: 25px;
     border: none;
     padding: 10px;
     cursor: pointer;
-    
 }
 
 .scroll-button:focus {

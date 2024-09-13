@@ -3,6 +3,8 @@ import {Link} from 'react-router-dom'
 import Model from './Model'
 import Description from './Description'
 import ProductDetails from './ProductDetails'
+import Similarproduct from './Similarproducts'
+import HotDeals from '../Home/Hotdeals'
 export default function Product(){
     return(
        <section className='Product-Info'>
@@ -11,11 +13,11 @@ export default function Product(){
                   <li className='list-item'>
                      <Link to={'/'}>Home </Link> 
                   </li>
-                  <li>{">"}</li>
+                  <li><i class="fa-solid fa-angle-right"></i></li>
                   <li className='list-item'>
                   <Link to={'/'}>Acoustic Guitar</Link>
                   </li>
-                  <li>{">"}</li>
+                  <li><i class="fa-solid fa-angle-right"></i></li>
                   <li className='list-item'>
                   <Link to={'/'}>Yamaha C40</Link>
                   </li>
@@ -27,6 +29,10 @@ export default function Product(){
            
             </div>
             <ProductDetails/>
+
+            <Similarproduct/>
+
+            <HotDeals/>
         </section>
     )
 }

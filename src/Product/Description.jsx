@@ -23,7 +23,10 @@ export default function Description(){
             <h3>80% off</h3>
         </div>
         <div className='color-cat'>
-            <h4>Color : Black</h4>
+            <div>
+            <h4>Color </h4>
+            </div>
+            <div className='color-pallete'>
             <ul className='colors'>
             <li style={{ backgroundColor:"red"}}>.</li>
             <li style={{backgroundColor:"blue"}}>.</li>
@@ -32,10 +35,21 @@ export default function Description(){
             <li style={{backgroundColor:"yellow"}}>.</li>
 
             </ul>
+            </div>
         </div>
         <div className='shopping-cart'>
+            <div className='addmore'>
+                
+            <h4> 1</h4>
+            <div className='up-down'>
+            <i class="bi bi-caret-up-square-fill"></i>
+            <i class="bi bi-caret-down-square-fill"></i>
+            </div>
+            
+            </div>
             <h3><i class="bi bi-cart3"></i>Add to Cart</h3>
             <h3><i class="bi bi-heart-fill"></i>Wishlist</h3>
+            
         </div>
         <div className='shipping-info'>
                 <div className='shipping-row'>
@@ -62,9 +76,9 @@ export default function Description(){
                     <div className='return-item'>
                         <i className="bi bi-shield"></i> 2 Year Standard Warranty <i className="bi bi-info-circle"></i>
                     </div>
+                  
                 </div>
                 </div>
-                <hr/>
         </section>
     )
 }

@@ -1,5 +1,6 @@
 
 import Slider from 'react-slick';
+import { useNavigate } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './hotdeals.css';
@@ -48,6 +49,7 @@ const hotdeals = [
 ];
 
 const HotDeals = () => {
+  const navigate = useNavigate();
     const settings = {
       infinite: true,
       speed: 500,
@@ -70,13 +72,16 @@ const HotDeals = () => {
         },
       ],
     };
-  
+    const handleItemClick = (id) => {
+      navigate(`/product/${id}`); // Assuming the route has product details with product ID
+    };
     return (
       <div className="best-sellers">
         <h1>Hot Deals</h1>
         <Slider {...settings}>
           {hotdeals.map(item => (
-            <div key={item.id} className="best-seller-item">
+            <div key={item.id} className="best-seller-item"
+            onClick={() => handleItemClick(item.id)}>
               <img src={item.imgSrc} alt={item.name} />
               <h3>{item.name}</h3>
               <p>

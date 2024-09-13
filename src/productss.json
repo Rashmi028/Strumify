@@ -1,0 +1,409 @@
+[
+  {
+    "id": 1,
+    "name": "Cort AF510M-OP Concert Body 6 String Acoustic Guitar - Open Pore",
+    "image1": "p1.jpg",
+    "image2": "p11.webp",
+    "description": "A beautifully crafted concert body guitar with an open pore finish that offers a rich, warm sound. Ideal for both beginners and advanced players.",
+    "category": "Acoustic Guitar",
+    "brand": "Cort",
+    "actual_price": 1200,
+    "selling_price": 1099,
+    "Star": 5,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fender Squier SA-105CE Cutaway Electro Acoustic Guitar",
+    "image1": "p2.webp",
+    "image2": "p22.webp",
+    "description": "This cutaway electro-acoustic guitar provides versatility with its built-in pickup system and comfortable playability. Perfect for live performances.",
+    "category": "Acoustic Guitar",
+    "brand": "Fender",
+    "actual_price": 950,
+    "selling_price": 899,
+    "Star": 4,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Fender Limited Edition FSR Sonoran Mini Competition Stripes Acoustic Guitar with Bag",
+    "image1": "p3.webp",
+    "image2": "p33.webp",
+    "description": "A limited edition mini acoustic guitar with a distinctive competition stripe design. Comes with a gig bag for easy transport.",
+    "category": "Acoustic Guitar",
+    "brand": "Fender",
+    "actual_price": 1150,
+    "selling_price": 1099,
+    "Star": 4,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Parkwood P630 Concert Acoustic Guitar with Case",
+    "image1": "p4.webp",
+    "image2": "p44.webp",
+    "description": "A concert acoustic guitar featuring a full-bodied sound and quality construction. Includes a protective case for convenient storage and transport.",
+    "category": "Acoustic Guitar",
+    "brand": "Parkwood",
+    "actual_price": 980,
+    "selling_price": 939,
+    "Star": 3,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vault DA20 Dreadnought Acoustic Guitar Kit",
+    "image1": "p5.webp",
+    "image2": "p55.webp",
+    "description": "This dreadnought acoustic guitar kit includes everything a beginner needs to start playing. Features a classic dreadnought body shape for a robust sound.",
+    "category": "Acoustic Guitar",
+    "brand": "Vault",
+    "actual_price": 850,
+    "selling_price": 799,
+    "Star": 4,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Yamaha Revstar RSE20 Red Copper Electric Guitar",
+    "image1": "p6.jpg",
+    "image2": "p66.jpg",
+    "description": "The Yamaha Revstar RSE20 features a striking red copper finish and is designed for a versatile range of tones. Ideal for rock and blues musicians.",
+    "category": "Electric Guitar",
+    "brand": "Yamaha",
+    "actual_price": 1300,
+    "selling_price": 1199,
+    "Star": 5,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fender Squier Sonic Stratocaster Electric Guitar",
+    "image1": "p7.jpg",
+    "image2": "p77.jpg",
+    "description": "A great entry-level electric guitar with a classic Stratocaster design. Provides bright, clear tones suitable for a variety of music styles.",
+    "category": "Electric Guitar",
+    "brand": "Fender",
+    "actual_price": 700,
+    "selling_price": 649,
+    "Star": 4,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ibanez GRG170DX RG Gio Series Double Cutaway 6 String Electric Guitar",
+    "image1": "p88.jpg",
+    "image2": "p88.jpg",
+    "description": "The Ibanez GRG170DX offers a double cutaway design and powerful pickups, making it ideal for heavy riffs and solos. Features a sleek, fast neck.",
+    "category": "Electric Guitar",
+    "brand": "Ibanez",
+    "actual_price": 850,
+    "selling_price": 799,
+    "Star": 5,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vault JB4 Jazz Bass 4-String Bass Guitar",
+    "image1": "p9.webp",
+    "image2": "p99.jpeg",
+    "description": "The Vault JB4 Jazz Bass features a classic design with a smooth neck and versatile tone controls. Perfect for jazz, rock, and funk bass lines.",
+    "category": "Electric Guitar",
+    "brand": "Vault",
+    "actual_price": 950,
+    "selling_price": 899,
+    "Star": 3,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Cort Action PJ 4-String Bass Guitar",
+    "image1":"p10.webp" ,
+    "image2":"p1010.jpeg",
+    "description": "The Cort Action PJ is a 4-string bass guitar with a punchy, versatile sound. Features a PJ pickup configuration for a wide range of tones.",
+    "category": "Electric Guitar",
+    "brand": "Cort",
+    "actual_price": 1900,
+    "selling_price": 1099,
+    "Star": 5,
+    "Ratings": 100,
+    "Reviews": 40,
+    "Discount": "50%",
+    "reviews": [
+      {
+        "user": "Alice",
+        "comment": "Amazing guitar, worth every penny.",
+        "rating": 5
+      },
+      {
+        "user": "Bob",
+        "comment": "The sound is incredible.",
+        "rating": 5
+      }
+    ]
+  },
+  
+        {
+          "id": 11,
+          "name": "Ibanez GSR200 SR Gio Series 4-String Bass Guitar",
+          "image1":"p11.webp" ,
+          "image2":"p111.webp",
+          "description": "The Ibanez GSR200 SR Gio is a 4-string bass guitar known for its comfortable playability and deep, resonant sound. Ideal for beginners and seasoned players alike.",
+          "category": "Electric Guitar",
+          "brand": "Ibanez",
+          "actual_price": 1300,
+          "selling_price": 769,
+          "Star": 4,
+          "Ratings": 100,
+          "Reviews": 40,
+          "Discount": "50%",
+          "reviews": [
+            {
+              "user": "Alice",
+              "comment": "Amazing guitar, worth every penny.",
+              "rating": 5
+            },
+            {
+              "user": "Bob",
+              "comment": "The sound is incredible.",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Vault KT-54 Keytone 54-Key Keyboard - Black",
+          "image1":"p12.jpg" ,
+          "image2":"p1212.webp",
+          "description": "The Vault KT-54 Keytone keyboard is a 54-key portable keyboard with various features including multiple sound options and rhythm functions. Ideal for beginners and hobbyists.",
+          "category": "Keyboard",
+          "brand": "Vault",
+          "actual_price": 1700,
+          "selling_price": 899,
+          "Star": 4,
+          "Ratings": 100,
+          "Reviews": 40,
+          "Discount": "50%",
+          "reviews": [
+            {
+              "user": "Alice",
+              "comment": "Amazing keyboard, worth every penny.",
+              "rating": 5
+            },
+            {
+              "user": "Bob",
+              "comment": "The sound is incredible.",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Casio CDP Series CDP-S110 88 Key Digital Piano",
+          "image1":"p13.avif" ,
+          "image2":"p1313.webp",
+          "description": "The Casio CDP-S110 is an 88-key digital piano featuring a compact design, weighted keys, and a range of realistic sounds. Perfect for both beginners and advanced players.",
+          "category": "Digital Piano",
+          "brand": "Casio",
+          "actual_price": 2300,
+          "selling_price": 1899,
+          "Star": 5,
+          "Ratings": 100,
+          "Reviews": 40,
+          "Discount": "50%",
+          "reviews": [
+            {
+              "user": "Alice",
+              "comment": "Amazing piano, worth every penny.",
+              "rating": 5
+            },
+            {
+              "user": "Bob",
+              "comment": "The sound is incredible.",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Roland FP-10 88-Key Digital Piano - Black",
+          "image1":"p14.jpg" ,
+          "image2":"p1414.webp",
+          "description": "The Roland FP-10 is an 88-key digital piano that offers a realistic playing experience with its advanced sound engine and responsive key action. Ideal for home practice and performances.",
+          "category": "Digital Piano",
+          "brand": "Roland",
+          "actual_price": 2600,
+          "selling_price": 2199,
+          "Star": 5,
+          "Ratings": 100,
+          "Reviews": 40,
+          "Discount": "50%",
+          "reviews": [
+            {
+              "user": "Alice",
+              "comment": "Amazing piano, worth every penny.",
+              "rating": 5
+            },
+            {
+              "user": "Bob",
+              "comment": "The sound is incredible.",
+              "rating": 5
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Yamaha PSR I500 61-Key Portable Keyboard with Power Adapter",
+          "image1":"p15.jpg" ,
+          "image2":"p1515.jpg",
+          "description": "The Yamaha PSR I500 is a 61-key portable keyboard with a range of features including built-in rhythms, voices, and an included power adapter. Perfect for musicians on the go.",
+          "category": "Keyboard",
+          "brand": "Yamaha",
+          "actual_price": 2100,
+          "selling_price": 1799,
+          "Star": 4,
+          "Ratings": 100,
+          "Reviews": 40,
+          "Discount": "50%",
+          "reviews": [
+            {
+              "user": "Alice",
+              "comment": "Amazing keyboard, worth every penny.",
+              "rating": 5
+            },
+            {
+              "user": "Bob",
+              "comment": "The sound is incredible.",
+              "rating": 5
+            }
+          ]
+        }
+      ]
+      

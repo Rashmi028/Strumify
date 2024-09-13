@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './sidebar.css';
 import { Slider } from '@mui/material';
 
 const Sidebar = () => {
+  const [priceRange, setPriceRange] = useState([500, 3000]);
+
+  const handlePriceChange = (event, newValue) => {
+    setPriceRange(newValue);
+  };
+
+  // Define the marks for the slider
+  const marks = [
+    { value: 500, label: '$500' },
+    { value: 1000, label: '1000' },
+    { value: 1500, label: '1500' },
+    { value: 2000, label: '2000' },
+    { value: 2500, label: '2500' },
+    { value: 3000, label: '3000' },
+  ];
+
   return (
     <>
       <div className='sidebar'>
@@ -18,7 +34,7 @@ const Sidebar = () => {
             <input id="checkbox" type="checkbox" /><label>Bass Guitar</label>
           </div>
           <div className='category-menu'>
-            <input id="checkbox" type="checkbox" /><label>ClassicalGuitar</label>
+            <input id="checkbox" type="checkbox" /><label>Classical Guitar</label>
           </div>
           <div className='category-menu'>
             <input id="checkbox" type="checkbox" /><label>Keyboard</label>
@@ -47,27 +63,30 @@ const Sidebar = () => {
           </div>
         </div>
         <hr/>
-        <div className='Price'>
+        <div className='Prices'>
           <h2>Price</h2>
           <div className='Slider' style={{ width: 200 }}>
             <Slider
               aria-label="Price range"
-              value={[0, 30]}
-              onChange={(e, newValue) => console.log(newValue)}
-              valueLabelDisplay="off"
-              min={0}
-              max={100}
+              value={priceRange}
+              onChange={handlePriceChange}
+              // valueLabelDisplay="on"
+              min={500}
+              max={3000}
+              step={500}
+              marks={marks}  // Add the marks here
               sx={{
-                color: 'error.main', // Change the color of the slider
-                '&.MuiSlider-thumb': {
-                  backgroundColor: 'error.main', // Change the color of the thumb
+                color: 'error.main',
+                '& .MuiSlider-thumb': {
+                  backgroundColor: 'error.main',
                 },
-                '&.MuiSlider-track': {
-                  backgroundColor: 'error.main', // Change the color of the track
+                '& .MuiSlider-track': {
+                  backgroundColor: 'error.main',
                 },
               }}
             />
           </div>
+          <p>Price Range: ${priceRange[0]} - ${priceRange[1]}</p>
         </div>
         <div className='Color'>
           <h2>Color</h2>

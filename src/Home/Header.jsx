@@ -9,7 +9,7 @@ export default function Header() {
         <ul>
           <li>
             <div className="applogo">
-              <a href="#home"><Link to={'/'}  style={{ textDecoration: 'none'}}><img src="../public/Strumify-logo.png" alt="Strumify logo"/></Link></a>
+              <a href="#home"><Link to={'/'}  style={{ textDecoration: 'none'}}><img src="/Strumify-logo.png" alt="Strumify logo"/></Link></a>
             </div>
           </li>
           <li>

@@ -1,4 +1,5 @@
-
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -47,48 +48,59 @@ const bestSellers = [
   },
 ];
 
-const BestSellers = () => {
-    const settings = {
-     
-      infinite: true,
-      speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 2,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
-          },
+const BestSellers = ({ title }) => {
+  const navigate = useNavigate();
+
+  // Settings for the slider
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 5,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
         },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
-      ],
-    };
-  
-    return (
-      <div className="best-sellers">
-        <h1>Best Sellers</h1>
-        <Slider {...settings}>
-          {bestSellers.map(item => (
-            <div key={item.id} className="best-seller-item">
-              <img src={item.imgSrc} alt={item.name} />
-              <h3>{item.name}</h3>
-              <p>
-                <span className="price">{item.price}</span>
-                <span className="original-price">{item.originalPrice}</span>
-              </p>
-            </div>
-          ))}
-        </Slider>
-      </div>
-    );
+      },
+    ],
   };
-  
-  export default BestSellers;
+
+  // Function to handle click on a bestseller item
+  const handleItemClick = (id) => {
+    navigate(`/product/${id}`); // Assuming the route has product details with product ID
+  };
+
+  return (
+    <div className="best-sellers">
+      <h1>{title}</h1>
+      <Slider {...settings}>
+        {bestSellers.map((item) => (
+          <div
+            key={item.id}
+            className="best-seller-item"
+            onClick={() => handleItemClick(item.id)} // On click navigate to product page
+          >
+            <img src={item.imgSrc} alt={item.name} />
+            <h3>{item.name}</h3>
+            <p>
+              <span className="price">{item.price}</span>
+              <span className="original-price">{item.originalPrice}</span>
+            </p>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};
+
+export default BestSellers;

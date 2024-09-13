@@ -51,7 +51,7 @@ export default function Home() {
       <div className='Top-Cat'>
        <TopCategory/>
       </div>
-      <Bestseller/>
+      <Bestseller title="Best sellers"/>
       <HotDeals/>
       <div className="promotional-banners">
       <div className="banner">

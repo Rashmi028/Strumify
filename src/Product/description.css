@@ -6,6 +6,8 @@
 
 .Product-name {
     margin-bottom: 15px;
+    font-weight: 550;
+    font-family:  Tahoma;
 }
 
 .Ratings {
@@ -13,7 +15,7 @@
 }
 
 .Ratings i {
-    color: goldenrod;
+    color: rgb(255, 194, 41);
     font-size: 18px;
 }
 
@@ -49,13 +51,42 @@
 
 .color-cat {
     height: 90px;
+    display: flex;
+    
+}
+.color-cat h4{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.color-cat .color-pallete{
+    text-align: center;
+    margin: auto 0px;
+}
 .colors li {
     color: transparent;
     border-radius: 50%;
     width: 22px;
     box-shadow: 5px 10px;
+    border-style:solid;
+    border-color: #ffdfdf;
+    cursor: pointer;
+}
+
+.addmore{
+    margin-top: 15px;
+    margin-right: 10px;
+    display: flex;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.addmore h4{
+
+}
+.addmore .up-down{
+    margin: 12px;
 }
 
 .shopping-cart {
@@ -64,27 +95,32 @@
 
 .shopping-cart h3 {
     color: white;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: red;
-    margin: 50px;
+    padding: 12px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #d6d4d4;
+    background-color: rgb(255, 96, 96);
+    margin-right: 50px;
+    cursor: pointer;
 }
 
 .shopping-cart h3 i {
     color: white;
+    
 }
 
 .shipping-info {
     background: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+    padding: 50px 0px;
+     
 }
+
 
 .shipping-row {
     display: flex;
     align-items: center;
     padding: 10px 0;
+
     border-bottom: 1px solid #ddd;
 }
 
@@ -108,8 +144,8 @@
 
 .pincode button {
     padding: 5px 10px;
-    border: 1px solid #007bff;
-    background: #007bff;
+    border: 1px solid #fff0f0;
+    background: #ff5050;
     color: #fff;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
@@ -117,30 +153,38 @@
 
 .deals, .returns {
     display: flex;
-    padding: 10px 0;
+    font-family: tahoma;
+    font-size: smaller;
 }
-
-.deal-item, .return-item {
-    margin-left: 50px;
+.deals, .returns h4{
+    font-size:15px;
+}
+.deal-item{
+    margin-left: 95px;
     display: flex;
     align-items: center;
     padding: 5px 0;
 }
 
+ .return-item {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+   
+}
+
 .deal-item i, .return-item i {
     font-size: 20px;
     margin-right: 10px;
+    margin-left: 5px;
 }
 
 .deal-item {
-    color: #007bff;
+    color: #585858;
 }
 
 .return-item {
-    color: #17a2b8;
+    color: #585858;
 }
 
-h4 {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
