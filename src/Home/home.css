@@ -27,7 +27,7 @@
 .promotion-banner {
 
   height: 450px;
-background-image: url('../public/snapedit_1720117570843.jpg');
+background-image: url('/snapedit_1720117570843.jpg');
  background-repeat: no-repeat;
  background-size: cover;
   color: rgb(255, 255, 255); /* White text color */
@@ -55,7 +55,7 @@ background-image: url('../public/snapedit_1720117570843.jpg');
 .promotion-banner2 {
 
   height: 450px;
-background-image: url('../public/562-MainPiano-Bar-.jpg');
+background-image: url('/562-MainPiano-Bar-.jpg');
  background-repeat: no-repeat;
  background-size: cover;
   color: rgb(255, 255, 255); /* White text color */

@@ -12,27 +12,27 @@ import { Fade, Zoom , Slide } from 'react-slideshow-image'
 
 export default function Home() {
   const slideImages = [
-    '../public/Casio-logo.jpg',
-    '../public/Fender.webp',
-    '../public/gibson.webp',
-    '../public/Ibanez-logo.jpg',
-    '../public/kawai.jpg',
-    '../public/korg.jpg',
-    '../public/Steinway-&-Sons-logo-design.jpg',
-    '../public/roland.jpg',
-    '../public/takamine.webp',
-    '../public/taylor.jpg',
-    '../public/Yamaha.webp',
+    '/Casio-logo.jpg',
+    '/Fender.webp',
+    '/gibson.webp',
+    '/Ibanez-logo.jpg',
+    '/kawai.jpg',
+    '/korg.jpg',
+    '/Steinway-&-Sons-logo-design.jpg',
+    '/roland.jpg',
+    '/takamine.webp',
+    '/taylor.jpg',
+    '/Yamaha.webp',
   ];
   return (
     <div className="App">
     
       <div className="navFacility">
         <ul>
-          <li><img src="../public/shield.png"/>Free 2 Year warranty</li>
-          <li><img src="../public/phone.png"/>Free Tech</li>
-          <li><img src="../public/free-shipping.png"/>Free Shipping</li>
-          <li><img src="../public/product-return.png"/>15 days Return</li>
+          <li><img src="/shield.png"/>Free 2 Year warranty</li>
+          <li><img src="/phone.png"/>Free Tech</li>
+          <li><img src="/free-shipping.png"/>Free Shipping</li>
+          <li><img src="/product-return.png"/>15 days Return</li>
         </ul>
       </div>
       <Slide>
@@ -55,7 +55,7 @@ export default function Home() {
       <HotDeals/>
       <div className="promotional-banners">
       <div className="banner">
-        <img src='../public/banner2.jpg' />
+        <img src='/banner2.jpg' />
         <div className="banner-text">
           <h2>NT1-A</h2>
           <p>Backing Keyboard<br />Our Best Deals Treat Yourself</p>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       </div>
       <div className="banner">
-        <img src='../public/banner3.jpg' />
+        <img src='/banner3.jpg' />
         <div className="banner-text">
           <h1>Drums & Percussions</h1>
           <h3>SALE UP TO 40% OFF</h3>
@@ -72,7 +72,7 @@ export default function Home() {
         </div>
       </div>
       <div className="banner">
-        <img src='../public/banner4.jpg' />
+        <img src='/banner4.jpg' />
         <div className="banner-text">
           <h1>Recording Solutions</h1>
           <h4>Plug-And-Play recording at home!</h4>
